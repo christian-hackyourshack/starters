@@ -22,8 +22,10 @@
   },
   "dependencies": {
     "@astrojs/mdx": "latest",
+    "@astrojs/tailwind": "latest",
     "astro": "latest",
-    "astro-m2dx": "latest"
+    "astro-m2dx": "latest",
+    "tailwindcss": "latest"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",

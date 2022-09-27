@@ -1,7 +1,9 @@
-import Card from '@components/Card.astro';
-import CardGrid from '@components/CardGrid.astro';
+import { Card } from '@components/Card';
+import { CardGrid } from '@components/CardGrid';
+import { Instructions } from '@components/Instructions';
 
 export const autoimports = {
   CardGrid,
   Card,
+  Instructions,
 };

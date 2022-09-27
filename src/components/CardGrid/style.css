@@ -1,0 +1,8 @@
+@layer components {
+  .card-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    padding: 0;
+  }
+}

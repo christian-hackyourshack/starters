@@ -1,0 +1,29 @@
+@layer utilities {
+  .page-width {
+    @apply w-full px-4 sm:px-8 lg:px-16 2xl:px-[calc(max(64px,(100vw-1152px)/2))];
+  }
+
+  .text-gradient {
+    font-weight: 900;
+    background-image: var(--astro-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 200%;
+    background-position-y: 100%;
+    border-radius: 0.4rem;
+    animation: pulse 4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%,
+    100% {
+      background-position-y: 0%;
+    }
+    50% {
+      background-position-y: 80%;
+    }
+  }
+
+  .text-hidden {
+    font-size: 0;
+  }
+}
