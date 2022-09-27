@@ -1,9 +1,3 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Root",
-  "files": [],
-  "references": [
-    { "path": "./apps/web/tsconfig.ref.json" },
-    { "path": "./packages/utils/random/tsconfig.ref.json" }
-  ]
+  "extends": "astro/tsconfigs/strict"
 }

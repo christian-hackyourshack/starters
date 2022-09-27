@@ -1,4 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# build output
+dist/
+.output/
 
 # dependencies
 node_modules
@@ -6,19 +8,18 @@ node_modules
 .pnp
 .pnp.js
 
+# You usually want to commit your frozen lockfiles, but not for starters
+# TODO: Comment this line
+pnpm-lock.yaml
+
 # testing
 coverage
-
-# next.js
-.next/
-out/
-build
 
 # misc
 .DS_Store
 *.pem
 
-# debug
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -29,8 +30,4 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-
-# turbo
-.turbo
-
 /.devcontainer/.gitconfig.local

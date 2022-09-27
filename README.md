@@ -1,6 +1,4 @@
-# Monorepo
-
-> TODO: Update according to my `npm` mono-repo
+# Astro template
 
 - devcontainer
   - base: gitpod
@@ -11,11 +9,10 @@
     - zsh
 - typescript
 - pnpm
-- turbo
 - eslint
 - prettier
 
 ## Example
 
 - astro app (ssg)
-- random ts package
+- tailwind

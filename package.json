@@ -1,26 +1,30 @@
 {
-  "name": "mono-template",
+  "name": "template-astro",
   "version": "0.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{astro,json,md,mdx,ts,tsx,yaml,yml}\""
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "lint": "lint",
+    "format": "prettier --write \"**/*.{astro,json,md,mdx,ts,tsx,yaml,yml}\"",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "dependencies": {
+    "astro": "^1.3.0"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "latest",
-    "@changesets/cli": "latest",
-    "eslint-config-base": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
     "pnpm": "latest",
     "prettier": "latest",
     "prettier-plugin-astro": "latest",
-    "rimraf": "latest",
-    "turbo": "latest"
+    "rimraf": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "pnpm@7.12.0"
 }
