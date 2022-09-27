@@ -4,12 +4,12 @@ singleQuote: true
 tabWidth: 2
 trailingComma: 'es5'
 useTabs: false
-plugins: 
+plugins:
   - './node_modules/prettier-plugin-astro'
-overrides: 
+overrides:
   - files: 'CHANGELOG.md'
     options:
       plugins: []
   - files: '**/*.astro'
-    options: 
+    options:
       parser: 'astro'
