@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "[@internal/web] pnpm dev",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "pnpm --filter @internal/web dev"
+    }
+  ]
+}
