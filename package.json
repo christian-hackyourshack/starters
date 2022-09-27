@@ -1,15 +1,21 @@
 {
-  "name": "template-astro",
+  "name": "astro-starter",
   "version": "0.0.0",
   "type": "module",
   "private": true,
+  "homepage": "https://github.com/christian-hackyourshack/starters",
+  "description": "Welcome to Astro",
+  "author": {
+    "name": "My Astro Starter",
+    "twitter": "@my-astro-starter"
+  },
   "scripts": {
     "astro": "astro",
     "build": "astro build",
     "dev": "astro dev",
     "lint": "lint",
     "format": "prettier --write \"**/*.{astro,json,md,mdx,ts,tsx,yaml,yml}\"",
-    "preview": "astro preview",
+    "preview": "astro build && astro preview",
     "start": "astro dev"
   },
   "dependencies": {

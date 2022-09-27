@@ -1,9 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import { BaseLayout } from '@layouts/BaseLayout';
 import Card from '../components/Card.astro';
+
+const meta = {
+  title: 'Welcome to Astro',
+  description: 'A basic Astro starter including MDX support',
+};
 ---
 
-<Layout title="Welcome to Astro.">
+<BaseLayout {...meta}>
   <h1>Welcome to <span class="text-gradient">Astro</span></h1>
   <p class="instructions">
     Check out the <code>src/pages</code> directory to get started.<br />
@@ -31,4 +36,4 @@ import Card from '../components/Card.astro';
       body="Come say hi to our amazing Discord community. ❤️"
     />
   </ul>
-</Layout>
+</BaseLayout>

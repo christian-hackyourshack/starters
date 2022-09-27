@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 /** @type {import('astro-m2dx').Options} */
 const m2dxOptions = {
   autoImports: '_autoimports.ts',
+  scanAbstract: true,
   scanTitle: true,
 };
 
