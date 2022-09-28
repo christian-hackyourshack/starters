@@ -12,6 +12,8 @@
   "scripts": {
     "astro": "astro",
     "build": "astro build",
+    "clean": "rimraf dist node_modules pnpm-lock.yaml",
+    "clean:all": "pnpm clean & rimraf .pnpm-store",
     "dev": "astro dev",
     "lint": "eslint . --ext .astro,.cjs,.mjs,.js,.jsx,.ts,.tsx",
     "format": "prettier --write \"**/*.{astro,json,md,mdx,ts,tsx,yaml,yml}\"",
