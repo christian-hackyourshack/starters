@@ -5,14 +5,16 @@ node_modules
 .pnpm-store
 .pnp
 .pnp.js
+# TODO: Remove or comment the following line,
+# because outside the starter you want to keep
+# your lockfile under version control
+pnpm-lock.yaml
 
 # testing
 coverage
 
-# next.js
-.next/
-out/
-build
+# build output
+dist/
 
 # misc
 .DS_Store

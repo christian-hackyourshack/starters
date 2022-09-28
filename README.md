@@ -1,7 +1,7 @@
 # Monorepo
 
-> TODO: Update according to my `npm` mono-repo
-
+- github workflows: rename `_github` to `.github`
+- changeset
 - devcontainer
   - base: gitpod
   - flavor: astro
@@ -9,13 +9,13 @@
   - extras
     - dotfiles
     - zsh
-- typescript
-- pnpm
-- turbo
+- pnpm workspaces
 - eslint
 - prettier
+- typescript
+- turbo
 
-## Example
+## Example Content
 
 - astro app (ssg)
 - random ts package
