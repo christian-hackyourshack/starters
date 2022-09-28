@@ -7,5 +7,6 @@
       "@layouts/*": ["layouts/*"],
       "@styles/*": ["styles/*"]
     }
-  }
+  },
+  "include": ["src"]
 }

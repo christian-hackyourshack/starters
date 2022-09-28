@@ -50,5 +50,5 @@ const url = site.url;
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet" />
 {feed && <link rel="alternate" type="application/rss+xml" href={new URL(feed, url).href} />}
-{next && <link rel="next" aria-label="Previous Page" href={new URL(next, url).href} />}
-{prev && <link rel="prev" aria-label="Next Page" href={new URL(prev, url).href} />}
+{next && <link rel="next" href={new URL(next, url).href} />}
+{prev && <link rel="prev" href={new URL(prev, url).href} />}

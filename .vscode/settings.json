@@ -9,6 +9,13 @@
   "emmet.includeLanguages": {
     "postcss": "css"
   },
+  "eslint.validate": [
+    "astro", // Enable .astro
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "markdown.extension.toc.levels": "2..6",
   "prettier.printWidth": 100,
   "svg.preview.background": "dark-transparent",

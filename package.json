@@ -13,7 +13,7 @@
     "astro": "astro",
     "build": "astro build",
     "dev": "astro dev",
-    "lint": "lint",
+    "lint": "eslint . --ext .astro,.cjs,.mjs,.js,.jsx,.ts,.tsx",
     "format": "prettier --write \"**/*.{astro,json,md,mdx,ts,tsx,yaml,yml}\"",
     "preview": "astro build && astro preview",
     "start": "astro dev"
@@ -24,12 +24,22 @@
     "astro-m2dx": "latest"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "latest",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-astro": "^0.19.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
     "pnpm": "latest",
     "prettier": "latest",
     "prettier-plugin-astro": "latest",
-    "rimraf": "latest"
+    "rimraf": "latest",
+    "typescript": "*"
   },
   "engines": {
     "node": ">=14.0.0"
